@@ -9,11 +9,9 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,window";
+	modi:                       "drun";
     show-icons:                 true;
     display-drun:               " Apps";
-    display-filebrowser:        " Files";
-    display-window:             " Windows";
 	drun-display-format:        "{name}";
 	window-format:              "{w} · {c} · {t}";
 }
@@ -64,7 +62,7 @@ mainbox {
     border-radius:               0px 0px 0px 0px;
     border-color:                var(bg3);
     background-color:            transparent;
-    children:                    [ "inputbar", "mode-switcher", "message", "listview" ];
+    children:                    [ "inputbar", "message", "listview" ];
 }
 
 /*****----- Inputbar -----*****/

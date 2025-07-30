@@ -1,5 +1,5 @@
-path="$HOME/.config/awesome/rofi/launcher/rofi"
+path="$HOME/.config/hypr/rofi/launcher/rofi"
 
 rofi \
-    -show $1 \
+    -show drun \
     -theme ${path}.rasi
